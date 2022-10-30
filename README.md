@@ -35,3 +35,19 @@ eslint 的默认配置是 `"extends": "eslint:recommended"`，它不会检查任
 ## step 2
 
 编辑器需要安装相应的插件，比如 VSCode 需要安装 [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+
+```bash
+# 手动 lint
+npm run lint
+```
+
+自动 lint，在 VSCode 中的 ESlint 扩展的配置文件中配置：
+
+```
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  } 
+}
+```
