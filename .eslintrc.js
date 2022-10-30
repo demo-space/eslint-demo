@@ -1,17 +1,15 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es6': true
+  env: {
+    browser: true,
+    es2021: true
   },
-  'extends': 'standard',
-  'globals': {
-    'Atomics': 'readonly',
-    'SharedArrayBuffer': 'readonly'
+  extends: 'standard',
+  overrides: [
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module'
   },
-  'parserOptions': {
-    'ecmaVersion': 2018,
-    'sourceType': 'module'
-  },
-  'rules': {
+  rules: {
   }
 }
