@@ -47,7 +47,8 @@ npm run lint
 ```
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true // eslint 自动 fix
+    // "source.fixAll": true // 所有工具都能自动 fix
   } 
 }
 ```
