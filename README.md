@@ -48,7 +48,7 @@ npm run lint
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true // eslint 自动 fix
-    // "source.fixAll": true // 所有工具都能自动 fix
+    // "source.fixAll": true // 所有工具都能自动 fix，比如如果 tsconfig.json 配置了 Unreachable code detected，则会自动删除 Unreachable code
   } 
 }
 ```
